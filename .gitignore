@@ -1,0 +1,31 @@
+# Private raw captures and local editing material never belong in this case study.
+/Screenshots/
+/screenshots/
+/_private_prontoequip_captures/
+**/.DS_Store
+**/Thumbs.db
+**/__pycache__/
+**/*.pyc
+**/*.psd
+**/*.xcf
+**/*.kra
+**/*.ora
+**/*.afphoto
+**/*.bak
+**/*.tmp
+**/*.log
+**/*-raw.*
+**/*-intermediate.*
+# Permit only the individually reviewed final exports in this directory.
+/docs/screenshots/*
+!/docs/screenshots/01-dashboard.png
+!/docs/screenshots/02-equipment-lookup.png
+!/docs/screenshots/03-sign-in.png
+!/docs/screenshots/04-checkout-details.png
+!/docs/screenshots/05-checkout-photos.png
+!/docs/screenshots/06-customer-confirmation.png
+!/docs/screenshots/07-return-details.png
+!/docs/screenshots/08-equipment-registration.png
+!/docs/screenshots/09-equipment-detail.png
+!/docs/screenshots/10-private-photo-controls.png
+!/docs/screenshots/11-return-photos.png
